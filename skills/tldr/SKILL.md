@@ -7,6 +7,7 @@ Summarize this conversation:
 1. What was decided or figured out
 2. Key things to remember
 3. Next actions (if any)
+4. Incomplete tasks — list any `- [ ]` items from this session that are still open
 
 Format as a clean markdown note with today's date in the title.
 Save to the most relevant folder based on the topic discussed.

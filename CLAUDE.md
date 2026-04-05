@@ -30,6 +30,15 @@ When writing anything:
 - Completed work → archive/ (never delete)
 - Update this file whenever your conventions change
 
+## Task Management (TaskForge)
+TaskForge is installed and watches this vault for tasks.
+
+- **Inline tasks** (`- [ ]` / `- [x]`) → use in daily notes and project files
+- **Task files** (standalone `.md` with YAML frontmatter) → use in `projects/` for complex, multi-step work
+- When creating tasks, always use standard markdown checkboxes so TaskForge picks them up
+- Never delete completed tasks — mark them `- [x]` so TaskForge tracks completion history
+- Do not put tasks in `inbox/` — that folder is for unsorted files only
+
 ## Available Slash Commands
 - /vault-setup  — Personalize this vault for your role
 - /daily        — Start the day with vault context
