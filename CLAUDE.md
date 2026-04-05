@@ -39,6 +39,15 @@ TaskForge is installed and watches this vault for tasks.
 - Never delete completed tasks — mark them `- [x]` so TaskForge tracks completion history
 - Do not put tasks in `inbox/` — that folder is for unsorted files only
 
+## ClaudeClaw Integration
+This vault is the shared knowledge base for ClaudeClaw agents (Telegram).
+
+- ClaudeClaw's `CLAUDE.md` must set `[PATH TO OBSIDIAN]` to this vault's location
+- Agents (B-rad, comms, ops, etc.) read from `projects/` and `research/` for context
+- When agents create tasks or roadmap items, write `- [ ]` checkboxes in `projects/` so TaskForge picks them up
+- Durable decisions and outputs should be saved here — not only in ClaudeClaw's SQLite memory
+- B-rad's roadmap lives at `projects/roadmap.md`
+
 ## Available Slash Commands
 - /vault-setup  — Personalize this vault for your role
 - /daily        — Start the day with vault context
